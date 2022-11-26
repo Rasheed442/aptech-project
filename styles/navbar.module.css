@@ -1,0 +1,51 @@
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+.navmenu p{
+    color: black;
+    transition: 0.2s;
+}
+.navmenu p:hover{
+    color:goldenrod;
+}
+.navmenu h2{
+    color: black;
+}
+.header{
+    display: none;
+}
+
+
+
+
+@media screen and (orientation:portrait) {
+    .navmenu {
+        position: absolute;
+        display: flex;
+        top: 50px;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 0;
+        display: none;
+    }
+   .header{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   }
+   .header h1{
+    color: black;
+   }
+    .navmenu h2{
+        display: none;
+    }
+    
+}
