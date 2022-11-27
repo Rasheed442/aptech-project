@@ -1,22 +1,31 @@
-.navmenu{
+.navlink{
     display: flex;
     justify-content: space-between;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    position: fixed;
-    width: 100vw;
-    background-color: white;
+   width: 100vw;
 }
-.navmenu p{
+.special{
+    border: 1px solid goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navlink p{
     color: black;
     transition: 0.2s;
 }
-.navmenu p:hover{
+.navlink p:hover{
     color:goldenrod;
+    border-bottom: 1px solid goldenrod;
 }
-.navmenu h2{
-    color: black;
+.navlink h2{
+    color: black;   
+
 }
 .header{
     display: none;
@@ -26,15 +35,27 @@
 
 
 @media screen and (orientation:portrait) {
+    .navlink{
+        display: none;
+    }
     .navmenu {
         position: absolute;
         display: flex;
-        top: 50px;
+        top: 0px;
+        font-size: 23px;
+        width: 17rem;
+        height: 100vh;
+        gap: 20px;
         flex-direction: column;
         padding-left: 20px;
-        padding-right: 0;
-        display: none;
+        padding-top: 30px;
+        background-color: goldenrod;
+       
     }
+    .navmenu p{
+        color: white; 
+    }
+   
    .header{
     display: block;
     display: flex;
