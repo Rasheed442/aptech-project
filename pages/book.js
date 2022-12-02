@@ -33,7 +33,7 @@ function Book() {
   return (
     <div className={styles.background}>
 
-     <div className={styles.contain} data-aos="zoom-in">
+     <div className={styles.contain} >
         {open ? "" : <form onSubmit={handle}>
           <div className={styles.main}>
             <h1>Place Your Orders &#128522;</h1>
