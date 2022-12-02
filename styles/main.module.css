@@ -1,3 +1,4 @@
+
 .header{
     padding: 4rem;
 }
@@ -21,14 +22,52 @@
     border-bottom-right-radius: 20px;
     transition: 0.5s;
     border: 1px solid lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.dish img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .dish:hover{
    transform:scale(0.9);
+}
+.headline{
+  background-image: url("/food3.jpeg");
+ 
+  width: 100vw;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 180px;
+  font-size: 30px;
+  margin-top: 150px;
+  color: white;
+  gap: 15px;
+}
+.headline button{
+    padding: 20px;
+    width: 10rem;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid goldenrod;
+    cursor: pointer; 
+    opacity: 0.5s;
+
 }
 
 @media screen and (orientation:portrait) {
     .flex{
         grid-template-columns:auto;
         padding-left: 40px;
+    }
+    .headline{
+        text-align: center;
+        font-size: 20px;
     }
 }

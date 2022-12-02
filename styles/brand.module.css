@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(80, 78, 78);
+    padding: 30px;
+    padding-top: 5rem;
+}
+.header h1{
+    font-weight: bolder;
+}
+.header p{
+    font-weight: bolder;
+}
+.detail{
+    display: flex;
+    gap: 5rem;
+    padding: 20px;
+}
+.detail p{
+    color: orangered;
+}
+.main h3{
+ padding: 20px;
+}
+.main{
+    border: 1px solid gainsboro;
+    width: 22rem;
+    border-radius: 20px;
+}
+.main img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    padding-left: 90px;
+    margin: 20px;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .grid{
+        grid-template-columns: auto;
+        padding-left: 0px;
+        margin: 10px;
+    }
+    .header p{
+        text-align: center;
+    }
+}

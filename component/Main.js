@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../styles/main.module.css'
 import Image from 'next/image'
 import {AiFillStar} from 'react-icons/ai'
+import Link from "next/link"
 function Main() {
   return (
     <>
@@ -33,7 +34,7 @@ function Main() {
        <div className={style.dish} data-aos='slide-up' data-aos-duration='700'> 
           <Image
           priority
-          src='/meal.jpeg'
+          src='/food.jpeg'
           height={300}
           width={300}
           />
@@ -51,7 +52,7 @@ function Main() {
        <div className={style.dish} data-aos='slide-up' data-aos-duration='900'>
           <Image
           priority
-          src='/meal.jpeg'
+          src='/food1.webp'
           height={300}
           width={300}
           />
@@ -72,7 +73,7 @@ function Main() {
        >
           <Image
           priority
-          src='/meal.jpeg'
+          src='/food2.jpeg'
           height={300}
           width={300}
           />
@@ -92,7 +93,7 @@ function Main() {
        >
           <Image
           priority
-          src='/meal.jpeg'
+          src='/food3.jpeg'
           height={300}
           width={300}
           />
@@ -112,7 +113,7 @@ function Main() {
        >
           <Image
           priority
-          src='/meal.jpeg'
+          src='/food4.jpeg'
           height={300}
           width={300}
           />
@@ -126,9 +127,20 @@ function Main() {
             <AiFillStar/> 
           </div>
        </div>
-      
-       
-</div>
+           
+</div> 
+    
+
+
+    <div className={style.headline}>
+        <h1>Made To Order </h1> 
+        <p>Swift speed of service, freshly prepared tasty meals, served to your specification and dining pleasure.</p>
+        <h1>Inter-continental Dishes</h1>
+        <p>Enjoy the Dining adventures all day, everyday.</p>
+       <Link href='book'><button>Book Now</button></Link> 
+    </div>
+
+
     </>
   )
 }

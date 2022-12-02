@@ -63,7 +63,7 @@
     display: flex;
     gap: 20px;
     padding: 30px;
-    padding-left: 6rem;
+    padding-left: 14rem;
 }
 .content{
     display: flex;
@@ -102,9 +102,9 @@
 
 @media screen and (orientation:portrait) {
     .main{
-        font-size: 20px;
+        font-size: 18px;
         left: 3%;
-        top: 50%;
+        top: 65%;
     }
     .rotate{
         transform: none;

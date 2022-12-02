@@ -1,0 +1,164 @@
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+.container{
+    background-color: rgb(232, 243, 248);
+    height: 100vh;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-bottom: 1px solid aqua;
+    padding: 10px;
+    font-size: 30px;
+}
+.line{
+    width: 65rem;
+    height: 3px;
+    background-color: skyblue;
+    margin-left: 12rem;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mail input{
+    padding: 15px;
+    font-size: 20px;
+    width: 55rem;
+    border: 1px solid gainsboro;
+}
+.mail{
+    font-size: 20px;
+}
+.message input{
+    padding: 15px;
+    font-size: 20px;
+    width: 55rem;
+    padding-bottom: 20rem;
+    border: 1px solid gainsboro;
+}
+.form button{
+    width:20rem;
+    margin-left: 17rem;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+}
+.form button:hover{
+    opacity: 0.8;
+}
+.app{
+    background-image: linear-gradient(to right, gold,black);
+    width: 60rem;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.app img{
+    position: relative;
+    margin-top: -90px;
+}
+.app button{
+    background-color:white;
+    padding: 20px;
+    width: 10rem;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .container h1{
+        font-size: 20px;
+    }
+    .container{
+        margin-top: 1rem;
+    }
+    .order{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0rem;
+        border-bottom: 1px solid aqua;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    
+    .mail input{
+        padding: 15px;
+        font-size: 20px;
+        width: 23rem;
+        border: 1px solid gainsboro;
+        border-radius: 20px;
+    }
+    .message input{
+        padding: 15px;
+        font-size: 20px;
+        width: 23rem;
+        padding-bottom: 15rem;
+        border: 1px solid gainsboro;
+        border-radius: 20px;
+    }
+    .form button{
+        margin-left: 1rem;
+    }
+
+    .back{
+        display: none;
+    }
+   
+}
