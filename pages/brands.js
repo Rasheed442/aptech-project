@@ -21,7 +21,7 @@ function Brands() {
                <h3>Jollof & co..</h3>
                <div className={style.detail}>
                 <h5>Everyday naija favorite</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -34,7 +34,7 @@ function Brands() {
                <h3>Wing Kings</h3>
                <div className={style.detail}>
                 <h5>Good chicken and more</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -47,7 +47,7 @@ function Brands() {
                <h3>CHòW Asian</h3>
                <div className={style.detail}>
                 <h5>Delicious & authentic<br/>Asian flavours</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -60,7 +60,7 @@ function Brands() {
                <h3>Sunny Side Club</h3>
                <div className={style.detail}>
                 <h5>Breakfast to start your<br/> day right</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -73,7 +73,7 @@ function Brands() {
                <h3>Mama's Kitchen</h3>
                <div className={style.detail}>
                 <h5>Mama&apos; special native<br/> dishes</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -86,7 +86,7 @@ function Brands() {
                <h3>Sweat Treats</h3>
                <div className={style.detail}>
                 <h5>All day Treats</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -99,7 +99,7 @@ function Brands() {
                <h3>Frankies</h3>
                <div className={style.detail}>
                 <h5>Burger, hotdogs more!</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -112,7 +112,7 @@ function Brands() {
                <h3>Wrap City</h3>
                <div className={style.detail}>
                 <h5>Delicious shawarma<br/> wraps & more.</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
            <div className={style.main}>
@@ -125,7 +125,7 @@ function Brands() {
                <h3>FC Shops</h3>
                <div className={style.detail}>
                 <h5>Snacks,liquor<br/>essentials & more</h5>
-                 <Link href='/'><p>View more</p></Link>
+                 <Link href=''><p>View more</p></Link>
                </div>
            </div>
       </div>

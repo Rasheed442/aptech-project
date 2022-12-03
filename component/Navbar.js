@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div>
       <div className={style.header}>
-        <Link href="/">
+        <Link href="/" >
           <h1 >
             <span style={{ color: "gold" }}>Tani&apos;s </span>Restaurant
           </h1>
@@ -33,7 +33,11 @@ function Navbar() {
 
   <div className={style.navlink} >
         <div className={style.name}>
-        <Link href="/" data-aos='fade-down' data-aos-duration='1300'>
+        <Link href="/" data-aos='fade-down' data-aos-duration='1300' onClick={()=>{
+          setColor(false)
+          setColor1(false)
+          setColor2(false)
+        }}>
           <h2>
             <span style={{ color: "goldenrod" }}>Tani&apos;s </span>Restaurant
           </h2>
