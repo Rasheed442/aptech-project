@@ -50,7 +50,7 @@ function Book() {
               <input type="text"  onChange={(e)=> {setNumber(e.target.value)}}/>
             </div>
             <div className={styles.specific}>
-              <label>Dietary Needs</label>
+              <label>Your Order</label>
               <input type="text" onChange={(e)=> {setDeitary(e.target.value)}}/>
             </div>
             <div className={styles.flex}>

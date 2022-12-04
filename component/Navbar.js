@@ -57,11 +57,13 @@ function Navbar() {
 
 
       {open  ?"": <div className={style.navmenu} data-aos='slide-right'>
-      <Link href='brands'><p>Brands</p></Link> 
-        <Link href='faqs'><p>FAQs</p></Link>
-        <Link href='support'><p>Support</p></Link> 
+      <Link href='brands' onClick={() => setOpen(true)}><p>Brands</p></Link> 
+        <Link href='faqs' onClick={() => setOpen(true)}><p>FAQs</p></Link>
+        <Link href='support' onClick={() => setOpen(true)}><p>Support</p></Link> 
         
-        <Link href="book" data-aos='fade-down' data-aos-duration='2100' className={style.special}>
+        <Link href="book" data-aos='fade-down' data-aos-duration='2100' className={style.special}
+        onClick={() => setOpen(true)}
+        >
           <p>Book Now</p>
         </Link>
       </div>}
