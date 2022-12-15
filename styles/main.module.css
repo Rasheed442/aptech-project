@@ -29,8 +29,11 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.dish:hover{
-   transform:scale(0.9);
+.dish P{
+    padding-left: 10px;
+}
+.star{
+    padding-left: 10px;
 }
 .headline{
   background-image: url("/food3.jpeg");

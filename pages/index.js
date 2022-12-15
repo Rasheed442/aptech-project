@@ -29,7 +29,7 @@ export default function Home() {
              </div>
 
              <div className={styles.main} data-aos='zoom-in'  data-aos-duration='2500'> 
-              <h1>TANI&apos;S</h1>
+              <h1>TANNY&apos;S</h1>
               <h2>RESTAURANT.</h2>
              </div>
        </div>

@@ -57,7 +57,7 @@ function Book() {
               <label>Home addresse:</label>
               <input type="text"  onChange={(e)=> {setAddresse(e.target.value)}} />
             </div>
-            <button type="submit" >Submit,..</button>
+            <button type="submit" >Submit</button>
 
             
           </div>

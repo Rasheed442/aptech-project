@@ -56,7 +56,7 @@ function Main() {
           height={300}
           width={300}
           />
-          <p>ITALIAN SOURCE MUSHROOM</p>
+          <p>WING KINGS...</p>
           <p>$14.9</p>
         <div className={style.star}>
             <AiFillStar/>
@@ -77,7 +77,7 @@ function Main() {
           height={300}
           width={300}
           />
-          <p>PORK WITH ITALIAN SALSA</p>
+          <p>SUNNY SIDE CLUB</p>
           <p>$22.9</p>
         <div className={style.star}>
             <AiFillStar/>
@@ -97,7 +97,7 @@ function Main() {
           height={300}
           width={300}
           />
-          <p>PORK WITH ITALIAN SALSA</p>
+          <p>ITALIAN SPAGHETTI AND MUSH...</p>
           <p>$22.9</p>
         <div className={style.star}>
             <AiFillStar/>
@@ -117,7 +117,7 @@ function Main() {
           height={300}
           width={300}
           />
-          <p>PORK WITH ITALIAN SALSA</p>
+          <p>Frankies</p>
           <p>$22.9</p>
         <div className={style.star}>
             <AiFillStar/>
