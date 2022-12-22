@@ -48,10 +48,16 @@ function Navbar() {
         <Link href='support' onClick={()=> {setColor2(true), setColor(false), setColor1(false)}}><p style={{color: color2 ?"red":""}}>Support</p></Link> 
        </div> 
       </div>
+
+    <div className={style.spec}>
+        <Link href="signup" data-aos='fade-down' data-aos-duration='2100' className={style.special}>
+          <p>Signup</p>
+        </Link>
     
         <Link href="book" data-aos='fade-down' data-aos-duration='2100' className={style.special}>
           <p>Book Now</p>
         </Link>
+        </div>
       </div>
 
 
